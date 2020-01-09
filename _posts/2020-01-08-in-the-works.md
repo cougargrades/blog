@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Upcoming features
+date: 2020-01-08 21:19:00 -06:00
 ---
 
 The next planned features for CougarGrades include the "Instructors" page and another feature (temporarily) named "Groups". These are the pages that have been greyed out and marked with a "🔒" in the navigation bar at the top of the site.
