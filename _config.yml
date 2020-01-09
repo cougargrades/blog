@@ -1,8 +1,8 @@
 # Setup
-title: Poole
-tagline: The Jekyll Butler
+title: CougarGrades.io
+tagline: Developer updates
 url: https://cougargrades.github.io
-paginate: 1
+paginate: 5
 baseurl: "/blog"
 permalink: pretty
 
@@ -33,9 +33,9 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Austin Jackson
+  url: https://austinj.net
+  email: austinjckson@gmail.com
 
 # Custom vars
 version: 3.0.0
