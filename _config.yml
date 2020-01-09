@@ -1,9 +1,9 @@
 # Setup
 title: Poole
 tagline: The Jekyll Butler
-url: https://cougargrades.github.io/blog/
+url: https://cougargrades.github.io
 paginate: 1
-baseurl: ""
+baseurl: "/blog"
 permalink: pretty
 
 # Gems
