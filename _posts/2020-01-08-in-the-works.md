@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Upcoming features: Instructor search and Groups"
+title: "🔭 Future update: Instructor search and Groups"
 date: 2020-01-08 21:19:00 00:00
 ---
 
