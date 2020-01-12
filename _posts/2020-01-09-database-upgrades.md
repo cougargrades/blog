@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Database upgrades&#58; Instructor indexing of names
+title: "Database upgrades: Instructor indexing of names"
 ---
 
 As a result of [some updates](https://github.com/cougargrades/importer/commit/cb142ea9d05797d3abfa81395d672f5703fa0877) being written to make searching for instructors by name possible, a database upgrade will be necessary.
