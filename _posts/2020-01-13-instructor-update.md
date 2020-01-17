@@ -10,7 +10,6 @@ Interested in taking a course but none of the instructors that are offerred have
 <video autoplay loop muted playsinline>
     <source src="{{ site.baseurl }}/assets/2020-01-13.webm" type="video/webm">
     <source src="{{ site.baseurl }}/assets/2020-01-13.mp4" type="video/mp4">
-
     Your browser does not support HTML5 video.
 </video>
 
