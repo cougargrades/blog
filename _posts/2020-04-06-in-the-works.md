@@ -43,7 +43,7 @@ _Big wall of text incoming, I've been busy._
 
 ## What's next?
 
-The next planned features for CougarGrades include the "Groups" page (temporary name). This page has been greyed out and marked with a "🔒" in the navigation bar since launch. The intended use of this feature is compare courses in a specific category or "Group". Specifically, I'm referring to the [UH Core Curriculum by Component Area](https://uh.edu/undergraduate-committee/documents-internal/uhcoreresources/). These _Component Areas_ are what most UH students are probably familiar with, such as: <span class="ca">Life & Physical Sciences</span>, <span class="ca">Language, Philosophy, & Culture</span>, <span class="ca">Writing in the Disciplines</span>, and many others.
+The next planned features for CougarGrades include the "Groups" page (temporary name). This page has been greyed out and marked with a "🔒" in the navigation bar since launch. The intended use of this feature is to compare courses in a specific category or "Group". Specifically, I'm referring to the [UH Core Curriculum by Component Area](https://uh.edu/undergraduate-committee/documents-internal/uhcoreresources/). These _Component Areas_ are what most UH students are probably familiar with, such as: <span class="ca">Life & Physical Sciences</span>, <span class="ca">Language, Philosophy, & Culture</span>, <span class="ca">Writing in the Disciplines</span>, and many others.
 
 ## Road Map
 
