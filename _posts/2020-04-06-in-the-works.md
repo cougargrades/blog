@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🔭 Future update: Groups + Roadmap"
-date: 2020-04-06 17:20:00 -06:00
+date: 2020-04-06 17:20:00 -05:00
 ---
 
 <style>
