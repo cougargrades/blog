@@ -1,0 +1,57 @@
+<svg class="frappe-chart chart chart-container" width="778" height="168" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="position:relative;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif">
+    <style>
+		.chart-container{position:relative;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif}.chart-container .title{font-weight:600;}.chart-container .axis,.chart-container .chart-label{fill:#555b51}.chart-container .axis line,.chart-container .chart-label line{stroke:#dadada}.chart-container .dataset-units circle{stroke:#fff;stroke-width:2}.chart-container .dataset-units path{fill:none;stroke-opacity:1;stroke-width:2px}.chart-container .dataset-path{stroke-width:2px}.chart-container .path-group path{fill:none;stroke-opacity:1;stroke-width:2px}.chart-container line.dashed{stroke-dasharray:5,3}.chart-container .axis-line .specific-value{text-anchor:start}.chart-container .axis-line .y-line{text-anchor:end}.chart-container .axis-line .x-line{text-anchor:middle}.chart-container .legend-dataset-text{fill:#6c7680;font-weight:600}.graph-svg-tip{position:absolute;z-index:99999;padding:10px;font-size:12px;color:#959da5;text-align:center;background:rgba(0,0,0,.8);border-radius:3px}.graph-svg-tip ul{padding-left:0;display:flex}.graph-svg-tip ol{padding-left:0;display:flex}.graph-svg-tip ul.data-point-list li{min-width:90px;flex:1;font-weight:600}.graph-svg-tip strong{color:#dfe2e5;font-weight:600}.graph-svg-tip .svg-pointer{position:absolute;height:5px;margin:0 0 0 -5px;content:' ';border:5px solid transparent;border-top-color:rgba(0,0,0,.8)}.graph-svg-tip.comparison{padding:0;text-align:left;pointer-events:none}.graph-svg-tip.comparison .title{display:block;padding:10px;margin:0;font-weight:600;line-height:1;pointer-events:none}.graph-svg-tip.comparison ul{margin:0;white-space:nowrap;list-style:none}.graph-svg-tip.comparison li{display:inline-block;padding:5px 10px}
+	</style>
+    <defs/>
+    <text class="title" x="20" y="10" dy="16px" font-size="16px" fill="#666666" text-anchor="start">
+        Fall 2019 Grades Issued
+    </text>
+    <g class="percentage-chart chart-draw-area" transform="translate(50, 50)">
+        <g class="percentage-bars" transform="">
+            <rect class="percentage-bar" x="0" y="0" width="322.27242164624226" height="20" fill="#87cefa" style="stroke:rgba(50,50,50,0.20);stroke-dasharray:0,342.272px,322.272px,20px;stroke-width:2px"/>
+            <rect class="percentage-bar" x="322.27242164624226" y="0" width="191.97062605543246" height="20" fill="#90ee90" style="stroke:rgba(50,50,50,0.20);stroke-dasharray:0,211.971px,191.971px,20px;stroke-width:2px"/>
+            <rect class="percentage-bar" x="514.2430477016748" y="0" width="82.0517917176631" height="20" fill="#ffff00" style="stroke:rgba(50,50,50,0.20);stroke-dasharray:0,102.052px,82.0518px,20px;stroke-width:2px"/>
+            <rect class="percentage-bar" x="596.2948394193379" y="0" width="26.643329666754457" height="20" fill="#ffa07a" style="stroke:rgba(50,50,50,0.20);stroke-dasharray:0,46.6433px,26.6433px,20px;stroke-width:2px"/>
+            <rect class="percentage-bar" x="622.9381690860923" y="0" width="24.500519001657707" height="20" fill="#cd5c5c" style="stroke:rgba(50,50,50,0.20);stroke-dasharray:0,44.5005px,24.5005px,20px;stroke-width:2px"/>
+            <rect class="percentage-bar" x="647.43868808775" y="0" width="30.561311912249987" height="20" fill="#8a2be2" style="stroke:rgba(50,50,50,0.20);stroke-dasharray:0,50.5613px,30.5613px,20px;stroke-width:2px"/>
+        </g>
+    </g>
+    <g class="chart-legend" transform="translate(50, 98)">
+        <g transform="translate(5, 0)">
+            <circle class="legend-dot" cx="0" cy="0" r="5" fill="#87cefa"/>
+            <text class="legend-dataset-text" x="0" y="0" dx="10px" dy="3.3333333333333335px" font-size="12px" text-anchor="start" fill="#555b51">
+                A: 61,362
+            </text>
+        </g>
+        <g transform="translate(115, 0)">
+            <circle class="legend-dot" cx="0" cy="0" r="5" fill="#90ee90"/>
+            <text class="legend-dataset-text" x="0" y="0" dx="10px" dy="3.3333333333333335px" font-size="12px" text-anchor="start" fill="#555b51">
+                B: 36,552
+            </text>
+        </g>
+        <g transform="translate(225, 0)">
+            <circle class="legend-dot" cx="0" cy="0" r="5" fill="#ffff00"/>
+            <text class="legend-dataset-text" x="0" y="0" dx="10px" dy="3.3333333333333335px" font-size="12px" text-anchor="start" fill="#555b51">
+                C: 15,623
+            </text>
+        </g>
+        <g transform="translate(335, 0)">
+            <circle class="legend-dot" cx="0" cy="0" r="5" fill="#ffa07a"/>
+            <text class="legend-dataset-text" x="0" y="0" dx="10px" dy="3.3333333333333335px" font-size="12px" text-anchor="start" fill="#555b51">
+                D: 5,073
+            </text>
+        </g>
+        <g transform="translate(445, 0)">
+            <circle class="legend-dot" cx="0" cy="0" r="5" fill="#cd5c5c"/>
+            <text class="legend-dataset-text" x="0" y="0" dx="10px" dy="3.3333333333333335px" font-size="12px" text-anchor="start" fill="#555b51">
+                F: 4,665
+            </text>
+        </g>
+        <g transform="translate(555, 0)">
+            <circle class="legend-dot" cx="0" cy="0" r="5" fill="#8a2be2"/>
+            <text class="legend-dataset-text" x="0" y="0" dx="10px" dy="3.3333333333333335px" font-size="12px" text-anchor="start" fill="#555b51">
+                S: 5,819
+            </text>
+        </g>
+    </g>
+</svg>

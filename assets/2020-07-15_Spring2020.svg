@@ -1,0 +1,79 @@
+<svg class="frappe-chart chart chart-container" width="778" height="168" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<style>
+		.chart-container{position:relative;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Oxygen','Ubuntu','Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif}.chart-container .title{font-weight:600;}.chart-container .axis,.chart-container .chart-label{fill:#555b51}.chart-container .axis line,.chart-container .chart-label line{stroke:#dadada}.chart-container .dataset-units circle{stroke:#fff;stroke-width:2}.chart-container .dataset-units path{fill:none;stroke-opacity:1;stroke-width:2px}.chart-container .dataset-path{stroke-width:2px}.chart-container .path-group path{fill:none;stroke-opacity:1;stroke-width:2px}.chart-container line.dashed{stroke-dasharray:5,3}.chart-container .axis-line .specific-value{text-anchor:start}.chart-container .axis-line .y-line{text-anchor:end}.chart-container .axis-line .x-line{text-anchor:middle}.chart-container .legend-dataset-text{fill:#6c7680;font-weight:600}.graph-svg-tip{position:absolute;z-index:99999;padding:10px;font-size:12px;color:#959da5;text-align:center;background:rgba(0,0,0,.8);border-radius:3px}.graph-svg-tip ul{padding-left:0;display:flex}.graph-svg-tip ol{padding-left:0;display:flex}.graph-svg-tip ul.data-point-list li{min-width:90px;flex:1;font-weight:600}.graph-svg-tip strong{color:#dfe2e5;font-weight:600}.graph-svg-tip .svg-pointer{position:absolute;height:5px;margin:0 0 0 -5px;content:' ';border:5px solid transparent;border-top-color:rgba(0,0,0,.8)}.graph-svg-tip.comparison{padding:0;text-align:left;pointer-events:none}.graph-svg-tip.comparison .title{display:block;padding:10px;margin:0;font-weight:600;line-height:1;pointer-events:none}.graph-svg-tip.comparison ul{margin:0;white-space:nowrap;list-style:none}.graph-svg-tip.comparison li{display:inline-block;padding:5px 10px}
+	</style>
+	<defs>
+	</defs>
+	<text class="title" x="20" y="10" dy="16px" font-size="16px" fill="#666666" text-anchor="start">
+		Spring 2020 Grades Issued
+	</text>
+	<g class="percentage-chart chart-draw-area" transform="translate(50, 50)">
+		<g class="percentage-bars" transform="">
+			<rect class="percentage-bar" x="0" y="0" width="376.2241823003634" height="20" fill="#87cefa" style="stroke: rgba(50,50,50,0.20); stroke-dasharray: 0px, 396.224px, 376.224px, 20px; stroke-width: 2px;">
+            </rect>
+			<rect class="percentage-bar" x="376.2241823003634" y="0" width="157.62062665749926" height="20" fill="#90ee90" style="stroke: rgba(50,50,50,0.20); stroke-dasharray: 0px, 177.621px, 157.621px, 20px; stroke-width: 2px;">
+			</rect>
+			<rect class="percentage-bar" x="533.8448089578626" y="0" width="16.546547490423336" height="20" fill="#ffff00" style="stroke: rgba(50,50,50,0.20); stroke-dasharray: 0px, 36.5465px, 16.5465px, 20px; stroke-width: 2px;">
+			</rect>
+			<rect class="percentage-bar" x="550.3913564482859" y="0" width="0.5149985266673215" height="20" fill="#ffa07a" style="stroke: rgba(50,50,50,0.20); stroke-dasharray: 0px, 20.515px, 0.514999px, 20px; stroke-width: 2px;">
+			</rect>
+			<rect class="percentage-bar" x="550.9063549749533" y="0" width="0.6703860131617719" height="20" fill="#cd5c5c" style="stroke: rgba(50,50,50,0.20); stroke-dasharray: 0px, 20.6704px, 0.670386px, 20px; stroke-width: 2px;">
+			</rect>
+			<rect class="percentage-bar" x="551.576740988115" y="0" width="110.6669678813476" height="20" fill="#bed1da" style="stroke: rgba(50,50,50,0.20); stroke-dasharray: 0px, 130.667px, 110.667px, 20px; stroke-width: 2px;">
+			</rect>
+			<rect class="percentage-bar" x="662.2437088694626" y="0" width="15.756291130537276" height="20" fill="#8a2be2" style="stroke: rgba(50,50,50,0.20); stroke-dasharray: 0px, 35.7563px, 15.7563px, 20px; stroke-width: 2px;">
+			</rect>
+		</g>
+	</g>
+	<g class="chart-legend" transform="translate(50, 98)">
+		<g transform="translate(5, 0)">
+			<circle class="legend-dot" cx="0" cy="0" r="5" fill="#87cefa">
+			</circle>
+			<text class="legend-dataset-text" x="0" y="0" dx="10px" dy="3.3333333333333335px" font-size="12px" text-anchor="start" fill="#555b51">
+				A: 84,742
+			</text>
+		</g>
+		<g transform="translate(115, 0)">
+			<circle class="legend-dot" cx="0" cy="0" r="5" fill="#90ee90">
+			</circle>
+			<text class="legend-dataset-text" x="0" y="0" dx="10px" dy="3.3333333333333335px" font-size="12px" text-anchor="start" fill="#555b51">
+				B: 35,503
+			</text>
+		</g>
+		<g transform="translate(225, 0)">
+			<circle class="legend-dot" cx="0" cy="0" r="5" fill="#ffff00">
+			</circle>
+			<text class="legend-dataset-text" x="0" y="0" dx="10px" dy="3.3333333333333335px" font-size="12px" text-anchor="start" fill="#555b51">
+				C: 3,727
+			</text>
+		</g>
+		<g transform="translate(335, 0)">
+			<circle class="legend-dot" cx="0" cy="0" r="5" fill="#ffa07a">
+			</circle>
+			<text class="legend-dataset-text" x="0" y="0" dx="10px" dy="3.3333333333333335px" font-size="12px" text-anchor="start" fill="#555b51">
+				D: 116
+			</text>
+		</g>
+		<g transform="translate(445, 0)">
+			<circle class="legend-dot" cx="0" cy="0" r="5" fill="#cd5c5c">
+			</circle>
+			<text class="legend-dataset-text" x="0" y="0" dx="10px" dy="3.3333333333333335px" font-size="12px" text-anchor="start" fill="#555b51">
+				F: 151
+			</text>
+		</g>
+		<g transform="translate(555, 0)">
+			<circle class="legend-dot" cx="0" cy="0" r="5" fill="#bed1da">
+			</circle>
+			<text class="legend-dataset-text" x="0" y="0" dx="10px" dy="3.3333333333333335px" font-size="12px" text-anchor="start" fill="#555b51">
+				S: 24,927
+			</text>
+		</g>
+		<g transform="translate(5, 20)">
+			<circle class="legend-dot" cx="0" cy="0" r="5" fill="#8a2be2">
+			</circle>
+			<text class="legend-dataset-text" x="0" y="0" dx="10px" dy="3.3333333333333335px" font-size="12px" text-anchor="start" fill="#555b51">
+				W: 3,549
+			</text>
+		</g>
+	</g>
+</svg>
