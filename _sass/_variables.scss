@@ -1,8 +1,33 @@
-$gray-1: #f9f9f9;
-$gray-2: #ccc;
-$gray-3: #767676;
-$gray-4: #515151;
-$gray-5: #313131;
+:root {
+  --poole-body-color: #515151;
+  --poole-body-bg: #fff;
+  --poole-gray-1: #f9f9f9;
+  --poole-gray-1half: #e5e5e5;
+  --poole-gray-2: #ccc;
+  --poole-gray-3: #767676;
+  --poole-gray-4: #515151;
+  --poole-gray-5: #313131;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --poole-body-color: #fff;
+    --poole-body-bg: #212121;
+    --poole-gray-5: #f9f9f9;
+    --poole-gray-4: #ccc;
+    --poole-gray-3: #767676;
+    --poole-gray-2: #515151;
+    --poole-gray-1half: #414141;
+    --poole-gray-1: #313131;
+  }
+}
+
+$gray-1: var(--poole-gray-1);
+$gray-1half: var(--poole-gray-1half);
+$gray-2: var(--poole-gray-2);
+$gray-3: var(--poole-gray-3);
+$gray-4: var(--poole-gray-4);
+$gray-5: var(--poole-gray-5);
 
 $red: #ac4142;
 $orange: #d28445;
@@ -17,8 +42,8 @@ $root-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helve
 $root-font-size: 16px;
 $root-line-height: 1.5;
 
-$body-color: #515151;
-$body-bg: #fff;
+$body-color: var(--poole-body-color);
+$body-bg: var(--poole-body-bg);
 $link-color: $blue;
 
 $border-color: #e5e5e5;

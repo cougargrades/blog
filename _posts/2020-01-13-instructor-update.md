@@ -17,6 +17,7 @@ This feature has been in the works for a long time, and I'm proud with how it's 
 
 <style>
     span.gr {
+        color: #515151;
         border-radius: 0.3rem;
         padding: 0.1rem;
     }
