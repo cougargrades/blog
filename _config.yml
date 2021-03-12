@@ -3,7 +3,7 @@ title: CougarGrades.io
 tagline: Developer updates
 url: https://blog.cougargrades.io
 paginate: 5
-baseurl: "/"
+baseurl: ""
 permalink: pretty
 timzone: "America/Chicago"
 
