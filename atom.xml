@@ -21,6 +21,10 @@ layout: null
    <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
+   {% if post.notice %}
+   <!-- used for displaying "nostice" alerts in the web app -->
+   <link rel="enclosure" title="notice" type="application/json" href="data:application/json,{{ post.notice | jsonify | uri_escape }}" />
+   {% endif %}
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
