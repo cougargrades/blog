@@ -19,7 +19,10 @@ layout: null
  <entry>
    <title>{{ post.title | xml_escape }}</title>
    <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
+   <!-- remove this later, it's kind of inaccurate. it's just kept for legacy reasons. -->
    <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <!-- use this instead -->
+   <published>{{ post.date | date_to_xmlschema }}</published>
    <id>{{ site.url }}{{ post.id }}</id>
    {% if post.notice %}
    <!-- used for displaying "nostice" alerts in the web app -->
