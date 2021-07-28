@@ -24,9 +24,11 @@ layout: null
    <!-- use this instead -->
    <published>{{ post.date | date_to_xmlschema }}</published>
    <id>{{ site.url }}{{ post.id }}</id>
-   {% if post.notice %}
+   {% if post.notices %}
+   {% for notice in post.notices %}
    <!-- used for displaying "nostice" alerts in the web app -->
-   <link rel="enclosure" title="notice" type="application/json" href="data:application/json,{{ post.notice | jsonify | uri_escape }}" />
+   <link rel="enclosure" title="notice" type="application/json" href="data:application/json,{{ notice | jsonify | uri_escape }}" />
+   {% endfor %}
    {% endif %}
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
