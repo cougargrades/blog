@@ -5,13 +5,13 @@ date: "2022-06-29T01:35:44.338Z"
 notices:
   - severity: warning
     updated: "2022-06-29T01:35:44.338Z"
-    expiry: "2022-06-30T12:00:00.000Z"
+    expiry: "2022-06-30T06:36:10.842Z"
     title: "Site maintenance in progress"
     bodyHTML: |
       <p>The website is down for maintenance but should be back in a couple hours. When we come back, you should see Spring 2022 data.</p>
     environments: ["production","preview"]
   - severity: announcement
-    updated: "2022-06-30T12:00:00.000Z"
+    updated: "2022-06-30T06:36:10.842Z"
     expiry: "2022-07-13T12:00:00.000Z"
     title: "Spring 2022 data"
     bodyHTML: |
