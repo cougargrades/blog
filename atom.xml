@@ -26,7 +26,7 @@ layout: null
    <id>{{ site.url }}{{ post.id }}</id>
    {% if post.notices %}
    {% for notice in post.notices %}
-   <!-- used for displaying "nostice" alerts in the web app -->
+   <!-- used for displaying "notice" alerts in the web app -->
    <link rel="enclosure" title="notice" type="application/json" href="data:application/json,{{ notice | jsonify | uri_escape }}" />
    {% endfor %}
    {% endif %}
