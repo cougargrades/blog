@@ -17,6 +17,14 @@ notices:
     bodyHTML: |
       <p>Spring 2022 data has been added to the site. Thank you for being patient during our site maintenance.</p>
     environments: ["production","preview"]
+  - severity: announcement
+    updated: "2022-08-05T18:20:11.425Z"
+    expiry: "2022-08-07T18:20:11.425Z"
+    title: "R.I.P. Shasta VI"
+    href: "https://twitter.com/UHouston/status/1555571861836234755"
+    bodyHTML: |
+      <p>Gone but not forgotten. You will remain in our hearts and memories. Thank you, Shasta, for representing us.</p>
+    environments: ["production","preview"]
 ---
 
 CougarGrades.io will be down for a scheduled maintenance to add Spring 2022 data to the site. When the maintenance has completed, the "Site maintenance in progress" message will be removed from the site. Thank you for your patience during this time.
