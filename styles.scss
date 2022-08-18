@@ -27,3 +27,13 @@
 @import "posts";
 @import "pagination";
 @import "message";
+
+img.sfsymbol {
+  display: inline;
+  width: 1.0em;
+  height: 1.0em;
+  margin: 0;
+  margin-right: 0.125em;
+  transform: translateY(calc(0.125em));
+  border-radius: 0;
+}
