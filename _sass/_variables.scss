@@ -1,5 +1,6 @@
 :root {
   --poole-body-color: #515151;
+  --poole-body-caption: var(--poole-gray-3);
   --poole-body-bg: #fff;
   --poole-gray-1: #f9f9f9;
   --poole-gray-1half: #e5e5e5;
@@ -12,6 +13,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --poole-body-color: #fff;
+    --poole-body-caption: var(--poole-gray-4);
     --poole-body-bg: #212121;
     --poole-gray-5: #f9f9f9;
     --poole-gray-4: #ccc;
@@ -43,6 +45,7 @@ $root-font-size: 16px;
 $root-line-height: 1.5;
 
 $body-color: var(--poole-body-color);
+$body-caption: var(--poole-body-caption);
 $body-bg: var(--poole-body-bg);
 $link-color: $blue;
 
