@@ -25,13 +25,13 @@ This feature has been in the works for a long time, and I'm proud with how it's 
 
 Pictured below is an example of an Instructor search result. The labels above the professor's name is both the GPA and the [standard deviation](https://en.wikipedia.org/wiki/Standard_deviation) respectively for the professor in question. The colors of the labels, inspired by [AggieScheduler](https://aggiescheduler.com/), are indicative of the score. An <span class="gr" style='background:lightskyblue;'>A average</span> is blue, a <span class="gr" style='background:lightgreen;'>B average</span> is green, a <span class="gr" style='background:yellow;'>C average</span> is yellow, and a <span class="gr" style='background:lightsalmon;'>D average</span> is orange.
 
-<img src="{{ site.baseurl }}/assets/2020-01-13.png">
+<img style="width:100%;max-width:300px;" src="{{ site.baseurl }}/assets/2020-01-13.png">
 
 ### Preventing arbitrary thresholds in the color indication
 
 To prevent the standard deviation thresholds from being biased or misleading, I created a frequency distribution and decided to use the [probability mass function](https://en.wikipedia.org/wiki/Probability_mass_function) to estimate when the cut-off should be. The results were pretty informative.
 
-**For the standardDeviation values of all instructors (latest data: Summer 2019)**
+**For the standard deviation values of all instructors (latest data: Summer 2019)**
 - min: `0.0007071067811864697`
 - mean: `0.28632900784232573`
 - median: `0.24911322128640845`

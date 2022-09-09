@@ -54,6 +54,12 @@ img, video {
   border-radius: 5px;
 }
 
+@media (prefers-color-scheme: light) {
+  img.lightcontent {
+    border: 1px solid hsl(0, 0%, 94%);
+  }
+}
+
 table {
   margin-bottom: 1rem;
   width: 100%;
