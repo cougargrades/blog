@@ -6,6 +6,18 @@
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a.button {
+    font-size: 0.75rem;
+    padding-right: 8px;
+    &::after {
+      content: '🡪';
+      padding-left: 5px;
+    }
+  }
 }
 
 .masthead-title {
