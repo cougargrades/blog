@@ -1,13 +1,15 @@
 :root {
   --poole-body-color: #515151;
   --poole-body-caption: var(--poole-gray-3);
-  --poole-body-bg: #fff;
+  // --poole-body-bg: #fff;
+	--poole-body-bg: #f9f9f9;
   --poole-gray-1: #f9f9f9;
   --poole-gray-1half: #e5e5e5;
   --poole-gray-2: #ccc;
   --poole-gray-3: #767676;
   --poole-gray-4: #515151;
   --poole-gray-5: #313131;
+	--cg-album-color: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +23,7 @@
     --poole-gray-2: #515151;
     --poole-gray-1half: #414141;
     --poole-gray-1: #313131;
+		--cg-album-color: #515151;
   }
 }
 
