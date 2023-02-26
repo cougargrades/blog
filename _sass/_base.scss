@@ -54,8 +54,13 @@ img, video {
   border-radius: 5px;
 }
 
+img {
+  width:100%;
+  max-width:500px;
+}
+
 @media (prefers-color-scheme: light) {
-  img.lightcontent {
+  img.lightcontent, video.lightcontent {
     border: 1px solid hsl(0, 0%, 94%);
   }
 }
