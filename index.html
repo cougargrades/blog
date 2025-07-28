@@ -12,10 +12,15 @@ title: Home
       </a>
     </h1>
 
-    <time title="{{ post.date | date_to_xmlschema }}" datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+    <time title="{{ post.date | date_to_xmlschema }}" datetime="{{ post.date | date_to_xmlschema }}" class="post-date">
+      {{ post.date | date_to_string }} &horbar; <sl-relative-time date="{{ post.date | date_to_xmlschema }}"></sl-relative-time>
+    </time>
 
     {{ post.content }}
   </article>
+  {% if forloop.last == false %}
+    <hr />
+  {% endif %}
   {% endfor %}
 </div>
 

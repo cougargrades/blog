@@ -1,0 +1,33 @@
+<sl-drawer id="table_of_contents">
+  <h3 slot="label">All Posts</h3>
+  <ul class="related-posts">
+    {% for post in site.posts %}
+    <!-- date -->
+    {% assign currentdate = post.date | date: "%Y" %}
+    {% if currentdate != date %}
+    <li id="y{{currentdate}}">
+      <h4>{{ currentdate }}</h4>
+    </li>
+    {% assign date = currentdate %}
+    {% endif %}
+
+    <!-- post -->
+    <sl-popup placement="top" auto-size="both" auto-size-padding="10" active>
+      <span slot="anchor"></span>
+      <div class="box"></div>
+    </sl-popup>
+    <li>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+        <small>
+          <time title="{{ post.date | date_to_xmlschema }}" datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date_to_string }}
+          </time>
+        </small>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <!-- <sl-button slot="footer" variant="primary">Close</sl-button> -->
+</sl-drawer>

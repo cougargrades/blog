@@ -9,6 +9,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
+  // sticky
+  position: sticky;
+  top: 0;
+  background-color: var(--poole-body-bg);
+  z-index: 1;
+  // box-shadow: var(--sl-shadow-x-small);
+  // background-color: var(--sl-panel-background-color);
 
   a.button {
     font-size: 0.75rem;

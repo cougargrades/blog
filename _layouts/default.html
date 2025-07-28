@@ -11,7 +11,16 @@
           <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
           <small>{{ site.tagline }}</small>
         </h3>
-        <a href="https://cougargrades.io/" class="button">Main Site</a>
+        <sl-button-group>
+          <sl-button variant="primary" size="small" onclick="window.table_of_contents.show()">
+            All Posts
+          </sl-button>
+          <sl-button variant="primary" size="small" href="https://cougargrades.io/" target="_blank">
+            Main Site
+            <sl-icon slot="suffix" name="box-arrow-up-right"></sl-icon>
+          </sl-button>
+        </sl-button-group>
+        <!-- <a href="https://cougargrades.io/" class="button">Main Site</a> -->
       </header>
 
       <main>
@@ -28,6 +37,8 @@
           </sl-tooltip>
       </footer>
     </div>
+
+    {% include toc.html %}
 
     {% if site.ga_analytics %}
      <script>
