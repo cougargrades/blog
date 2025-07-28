@@ -15,6 +15,20 @@
   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicon.ico">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
 
+  <!-- Shoelace -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace.js" ></script>
+  <link
+    rel="stylesheet"
+    media="(prefers-color-scheme:light)"
+    href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css"
+  />
+  <link
+    rel="stylesheet"
+    media="(prefers-color-scheme:dark)"
+    href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/dark.css"
+    onload="document.documentElement.classList.add('sl-theme-dark');"
+  />
+
   <script type="module" src="https://cdn.jsdelivr.net/npm/@au5ton/dango/dist/index.browser.js"></script>
 
   {% seo title=false %}

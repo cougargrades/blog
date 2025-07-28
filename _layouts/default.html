@@ -22,6 +22,10 @@
         <small>
           &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
         </small>
+          <span style="flex: 1;"></span>
+          <sl-tooltip content="RSS/Atom Feed">
+            <a href="/atom.xml"><img style="width: 24px; height: 24px; margin: 0;" src="/assets/rss.svg"/></a>
+          </sl-tooltip>
       </footer>
     </div>
 
