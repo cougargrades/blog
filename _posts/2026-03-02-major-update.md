@@ -39,6 +39,6 @@ With this rewrite, the site should be faster and more responsive than ever.
   - As a result, the existing data available in Google Analytics was extracted and imported into this system.
   - The "backfilled" Google Analytics data is hit or miss, but it's all we have for now.
   - Whenever you visit a Course, Instructor, or Group page in CougarGrades, the application will increment log how many times that particular page has been visited in a 24hr period. We never log any other information about who visited or how often.
-  - We do utilize the Cloudflare Workers Rate Limiting API to try and prevent some abuse, which limits the amount of analytics logs by IP address.
+  - The actual API endpoint that processes these submissions is protected by [Cloudflare Turnstile](https://developers.cloudflare.com/turnstile/) to prevent abuse.
 
 Thanks for your continued support.
