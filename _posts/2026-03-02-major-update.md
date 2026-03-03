@@ -32,4 +32,13 @@ The rewrite comes from these reasons:
 
 With this rewrite, the site should be faster and more responsive than ever.
 
+### Other changes:
+
+- The "Most Viewed (Courses/Instructors)" page is no longer powered by Google Analytics. It has been replaced with our own custom solution that is much more flexible and reliable: "Popularity Contest" system.
+
+  - As a result, the existing data available in Google Analytics was extracted and imported into this system.
+  - The "backfilled" Google Analytics data is hit or miss, but it's all we have for now.
+  - Whenever you visit a Course, Instructor, or Group page in CougarGrades, the application will increment log how many times that particular page has been visited in a 24hr period. We never log any other information about who visited or how often.
+  - We do utilize the Cloudflare Workers Rate Limiting API to try and prevent some abuse, which limits the amount of analytics logs by IP address.
+
 Thanks for your continued support.
